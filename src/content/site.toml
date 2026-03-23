@@ -1,0 +1,100 @@
+[site]
+brand = "azazo1"
+navLabel = "GitHub"
+navHref = "https://github.com/azazo1"
+
+[hero]
+eyebrow = "GitHub / Personal Homepage"
+titlePrimary = "azazo1"
+titleSecondary = "Builds quiet tools with sharp edges."
+body = "Software Engineering at East China Normal University. 用脚本、CLI 与工程化工具把重复劳动磨平，把想法更快地交付出来。"
+avatarSrc = "https://github.com/azazo1.png?size=460"
+avatarAlt = "azazo1 avatar"
+metadata = ["UTC +08:00", "Pro", "3 achievements"]
+
+[[hero.actions]]
+label = "Visit GitHub"
+href = "https://github.com/azazo1"
+variant = "primary"
+icon = "github"
+
+[[hero.actions]]
+label = "Explore howlto"
+href = "https://github.com/azazo1/howlto"
+variant = "ghost"
+icon = "arrowRight"
+
+[[metrics]]
+label = "Repositories"
+value = 61
+
+[[metrics]]
+label = "Stars"
+value = 748
+
+[[metrics]]
+label = "Followers"
+value = 12
+
+[[metrics]]
+label = "Following"
+value = 25
+
+[projects]
+eyebrow = "Pinned Work"
+title = "Small tools, built to remove friction."
+
+[[projects.items]]
+index = "01"
+accent = "Automation"
+stack = "Rust"
+name = "ecnu-power-usage"
+description = "ECNU 自动查询电费及电费不足提醒工具，把校园生活里的琐碎通知变成可运行的自动化流程。"
+url = "https://github.com/azazo1/ecnu-power-usage"
+stars = 1
+
+[[projects.items]]
+index = "02"
+accent = "Agent CLI"
+stack = "Rust"
+name = "howlto"
+description = "一个正在打磨中的简单 shell agent，用更轻的交互方式把命令行变得更聪明、更顺手。"
+url = "https://github.com/azazo1/howlto"
+stars = 2
+
+[profile]
+eyebrow = "Profile"
+title = "工程感来自持续交付，不来自堆砌存在感。"
+body = "页面内容现在全部由 TOML 配置驱动，你可以直接维护个人信息、项目、亮点与 CTA，而不需要再修改组件源码。"
+achievements = ["Pair Extraordinaire", "Pull Shark", "Quickdraw"]
+
+[[profile.panels]]
+icon = "code"
+title = "Focus"
+body = "从校园自动化脚本到命令行 agent，关注点始终是“让事情更快发生”。"
+
+[[profile.panels]]
+icon = "bolt"
+title = "Workflow"
+items = [
+  "把脚本写成真正可复用的工具，而不是一次性的临时文件。",
+  "偏爱可以直接提升效率的产品形态：CLI、自动化任务、提示与提醒。",
+  "愿意在细节里持续打磨，从接口命名到日常开发流程都追求更顺。",
+]
+
+[cta]
+eyebrow = "Next Move"
+title = "想看更多代码与实验，就直接进入 GitHub。"
+body = "继续查看仓库、 Stars 与正在打磨中的 CLI 项目。"
+
+[[cta.actions]]
+label = "Open Profile"
+href = "https://github.com/azazo1"
+variant = "primary"
+icon = "github"
+
+[[cta.actions]]
+label = "Visit ECNU"
+href = "https://www.ecnu.edu.cn/"
+variant = "ghost"
+icon = "sparkles"
