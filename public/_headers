@@ -1,0 +1,3 @@
+# 设置 WASM 文件的 MIME 类型
+*.wasm
+  Content-Type: application/wasm

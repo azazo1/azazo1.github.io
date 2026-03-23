@@ -62,10 +62,18 @@ description = "一个正在打磨中的简单 shell agent，用更轻的交互�
 url = "https://github.com/azazo1/howlto"
 stars = 2
 
+[[projects.items]]
+index = "03"
+accent = "WASM Demo"
+stack = "Rust + Wasm"
+name = "Render 3D - Ray Tracing"
+description = "ray tracing 小游戏"
+url = "/ray-tracing/game.html"
+
 [profile]
 eyebrow = "Profile"
 title = "工程感来自持续交付，不来自堆砌存在感。"
-body = "页面内容现在全部由 TOML 配置驱动，你可以直接维护个人信息、项目、亮点与 CTA，而不需要再修改组件源码。"
+body = "页面内容现在全部由 TOML 配置驱动，你可以直接维护个人信息、项目、亮点与 CTA，而不需要再修改组件源码；旧版主页里的 WASM ray tracing demo 也已经一并整合进当前站点。"
 achievements = ["Pair Extraordinaire", "Pull Shark", "Quickdraw"]
 
 [[profile.panels]]
